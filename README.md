@@ -2,52 +2,55 @@
 
 # NLP Chatbot Project
 
-Dự án này là một chatbot sử dụng phương pháp học máy để trả lời các câu hỏi dựa trên dataset đã được huấn luyện. Chatbot sử dụng mô hình tương tự Cosine Similarity để tìm câu trả lời gần nhất từ tập dữ liệu.
+This project is a chatbot that uses machine learning methods to answer questions based on a trained dataset. The chatbot uses a model similar to Cosine Similarity to find the closest answer from the dataset.
 
-## Nội dung
+## Table of Contents
 
-1. [Giới thiệu](#giới-thiệu)
-2. [Yêu cầu](#yêu-cầu)
-3. [Cài đặt](#cài-đặt)
-4. [Cách sử dụng](#cách-sử-dụng)
-5. [Cấu trúc dự án](#cấu-trúc-dự-án)
-6. [Cảm ơn](#cảm-ơn)
+1. [Introduction](#introduction)
+2. [Requirements](#requirements)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Project Structure](#project-structure)
+6. [Acknowledgments](#acknowledgments)
 
-## Giới thiệu
+## Introduction
 
-Dự án này sử dụng ngôn ngữ Go để xây dựng một chatbot đơn giản có khả năng trả lời câu hỏi từ một dataset được cung cấp dưới dạng CSV. Mô hình chatbot sử dụng phương pháp tính toán độ tương tự cosine để so sánh câu hỏi đầu vào với các câu hỏi trong dataset và tìm câu trả lời gần nhất.
+This project uses the Go language to build a simple chatbot capable of answering questions from a provided dataset in CSV format. The chatbot model uses Cosine Similarity to compare the input question with questions in the dataset and find the closest match.
 
-### Các tính năng chính:
-- Đọc dataset từ file CSV.
-- Huấn luyện mô hình chatbot.
-- Lưu mô hình đã huấn luyện vào file.
-- Kiểm tra và trả lời các câu hỏi từ người dùng dựa trên mô hình đã huấn luyện.
-- Sử dụng phương pháp Cosine Similarity để tính độ tương tự giữa câu hỏi của người dùng và câu hỏi trong dataset.
+### Key Features:
+- Read the dataset from a CSV file.
+- Train the chatbot model.
+- Save the trained model to a file.
+- Test and answer user questions based on the trained model.
+- Use Cosine Similarity to compute the similarity between the user's question and questions in the dataset.
 
-## Yêu cầu
+## Requirements
 
-Để sử dụng dự án này, bạn cần cài đặt:
-- Go version 1.18 trở lên.
-- Một trình biên tập mã nguồn như VSCode, Sublime Text, hoặc bất kỳ trình biên tập nào khác.
+To use this project, you need to install:
+- Go version 1.18 or higher.
+- A source code editor like VSCode, Sublime Text, or any other editor of your choice.
 
-## Cài đặt
+## Installation
 
-1. **Clone repo:**
+1. **Clone the repository:**
 
-   Đầu tiên, bạn cần clone dự án về máy tính của mình:
+   First, clone the project to your local machine:
 
    ```bash
    cd nlp-chatbot
-2. **Train và Test**
 
-## Cách sử dụng
+2. **Train and Test**
+
+## Usage
 <img width="978" alt="Screenshot 2025-01-24 at 12 27 42" src="https://github.com/user-attachments/assets/95ca4242-9309-4560-97f7-13077284d2cb" />
 
-## Cấu trúc dự án 
+## Project Structure
 <img width="216" alt="Screenshot 2025-01-24 at 12 28 19" src="https://github.com/user-attachments/assets/b599468c-76c1-4850-8e79-022e140d0432" />
 
 
-## Cảm ơn 
+## Acknowledgments
+Thank you for participating in this NLP Chatbot project. I hope you find it useful for learning and developing your programming skills.
+
 
 Cảm ơn bạn đã tham gia vào dự án NLP Chatbot này. Hy vọng bạn sẽ tìm thấy nó hữu ích cho việc học và phát triển các kỹ năng lập trình của mình.
 
